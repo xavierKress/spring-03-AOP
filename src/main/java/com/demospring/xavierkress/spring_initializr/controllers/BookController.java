@@ -20,4 +20,11 @@ public class BookController {
 
         return "books";
     }
+
+    @Override
+    public String toString() {
+        return "BookController{" +
+                "bookRepository=" + bookRepository +
+                '}';
+    }
 }
